@@ -253,7 +253,7 @@ color: #f6f6f6;
 @media (max-width:390px) {
     .container{
         width: 100%;
-        max-width: 370px;
+        max-width: 350px;
         margin: 0 auto;
     }
     .logo{
@@ -323,18 +323,18 @@ font-size: 24px;
         font-size: 24px;
     }
     .footer-card-left{
-        width: 370px;
+        width: 100%;
         height: 425px;
         text-align: center;
-        padding: 50px 55px;
+        padding: 50px 50px;
     }
     .footer-card-right{
-        width: 370px;
+        width: 100%;
         height: 492px;
         text-align: center;
     }
     .card-content{
-        width: 270px;
+        width: 250px;
     }
     .footer-card-text{
         font-size: 14px;
