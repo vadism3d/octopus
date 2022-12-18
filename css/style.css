@@ -246,9 +246,7 @@ color: #f6f6f6;
 
 
 /*  Desktop Reg + Log */
-.desktop-reg-open{
-    display: block;
-}
+
 .desktop-reg {
     background: linear-gradient(311.56deg, rgba(212, 91, 120, 0.9) -21.39%, rgba(75, 56, 98, 0.9) 75.84%);
     backdrop-filter: blur(25px);
@@ -259,6 +257,9 @@ color: #f6f6f6;
     padding-top: 110px;
     padding-bottom: 172px;
     display: none;
+}
+.desktop-reg-open{
+    display: block;
 }
 .desktop-container {
     width: 100%;
@@ -310,17 +311,22 @@ input:valid{
 }
 .desktop-reg-btn {
     background: #D75C78;
-border-radius: 5px;
-padding: 15px 80px;
-font-weight: 400;
-font-size: 36px;
-color: #fff;
-margin-top: 60px;
-margin-bottom: 40px;
-display: block;
-margin: 0 auto;
+    border-radius: 5px;
+    padding: 15px 80px;
+    font-weight: 400;
+    font-size: 36px;
+    color: #fff;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    display: block;
+    margin: 0 auto;
 }
 .desktop-nav-reg-log {
+    font-size: 34px;
+    font-weight: 400;
+    color: #fff; text-align: center;
+    margin-top: 30px;
+    display: block;
 }
 
 
