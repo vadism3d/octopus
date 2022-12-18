@@ -17,7 +17,7 @@ body{
     max-width: 1250px;
     margin: 0 auto;
 }
-.mobile-reg , .mobile-nav {
+.mobile-reg , .mobile-nav , .mobile-log {
     display: none;
 }
 .nav {
@@ -40,13 +40,13 @@ body{
     font-weight: 400;
     font-size: 18px;
 }
-.login-btn{
+.registration-btn{
     padding: 10px 38px;
     border: 2px solid #FFFFFF;
     border-radius: 5px;
     transition: background .5s;
 }
-.login-btn:hover{
+.registration-btn:hover{
     background: #fff;
     color: #000;
 }
@@ -245,8 +245,83 @@ color: #f6f6f6;
 }
 
 
-
-
+/*  Desktop Reg + Log */
+.desktop-reg-open{
+    display: block;
+}
+.desktop-reg {
+    background: linear-gradient(311.56deg, rgba(212, 91, 120, 0.9) -21.39%, rgba(75, 56, 98, 0.9) 75.84%);
+    backdrop-filter: blur(25px);
+    /* height: 1374px; */
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    padding-top: 110px;
+    padding-bottom: 172px;
+    display: none;
+}
+.desktop-container {
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+}
+.desktop-reg-close{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+.desktop-reg-title {
+    font-weight: 700;
+    font-size: 48px;
+    color: #fcfcfc;
+}
+.desktop-reg-text {
+    font-weight: 700;
+    font-size: 24px;
+    color: #fcfcfc;
+    margin-top: 10px;
+    margin-bottom: 65px;
+}
+.desktop-reg-input input {
+    background: #F3F3F3;
+    border: 2px solid #FFFFFF;
+    box-shadow: inset 0px 0px 20px -1px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    width: 720px;
+    height: 75px;
+    font-size: 24px;
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+input:focus{
+    border: 3px solid #D75C78;
+}
+input:invalid{
+    border: 3px solid rgb(184, 27, 27);
+}
+input:valid{
+    border: 3px solid rgb(24, 221, 99);
+}
+.input-text {
+    font-weight: 700;
+    font-size: 24px;
+    color: #fcfcfc;
+    margin-bottom: 5px;
+}
+.desktop-reg-btn {
+    background: #D75C78;
+border-radius: 5px;
+padding: 15px 80px;
+font-weight: 400;
+font-size: 36px;
+color: #fff;
+margin-top: 60px;
+margin-bottom: 40px;
+display: block;
+margin: 0 auto;
+}
+.desktop-nav-reg-log {
+}
 
 
 
@@ -274,7 +349,7 @@ color: #f6f6f6;
     }
     .header-title{
         margin-top: 50px;
-font-size: 24px;
+        font-size: 24px;
     }
     .header-text{
         font-size: 14px;
@@ -377,9 +452,6 @@ font-size: 24px;
         padding-top: 100px;
         position: absolute;
         z-index: 2;
-    }
-    .mobile-reg{
-
     }
     .open-btn{
         position: absolute;

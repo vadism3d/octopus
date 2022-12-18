@@ -1,4 +1,24 @@
+// Десктопная версия
 
+// desktop-reg-close (закрытие для регистации десктоп)
+
+$('.registration-btn').click(function(){
+	$('.desktop-reg').addClass('desktop-reg-open');
+})
+$('.desktop-reg-close').click(function(){
+	$('.desktop-reg').removeClass('desktop-reg-open');
+})
+
+
+
+
+
+
+
+
+
+
+// Мобильная версия
 // Окно регистации
 $('.mobile-nav-reg').click(function(){
 	$('.mobile-reg').addClass('open');

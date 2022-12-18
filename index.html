@@ -8,6 +8,7 @@
     <title>Осьминог</title>
 </head>
 <body>
+    <!-- Мобильная версия входа и регистрации -->
     <nav class="mobile-reg">
         <div class="mobile-container">
             <a href="#!"><img src="./img/mobile/menu-close.png" alt="" class="open-btn" id="close_popup"></a>
@@ -89,16 +90,67 @@
             <a href="#" class="mobile-nav-log">Вход</a>
             <a href="#" class="mobile-nav-reg">Регистрация</a>
     </div>
+    <!-- Дестопная версия входа и регистрации -->
+    <nav class="desktop-reg">
+        <div class="desktop-container">
+            <a href="#!"><img src="./img/mobile/menu-close.png" alt="" class="desktop-reg-close" id="desktop-reg-close"></a>
+            <div class="desktop-reg-title">
+                Регистрация
+            </div>
+            <div class="desktop-reg-text">
+                После регистрации вы получите: <br>
+                10 минут связи - бесплатно
+            </div>
+            <form>
+                <div class="desktop-reg-input">
+                    <div class="input-text">
+                        Ваш Email
+                    </div>
+                    <input type="email"  required>
+                </div>
+                <div class="desktop-reg-input">
+                    <div class="input-text">
+                        Ваше имя
+                    </div>
+                    <input type="text" required>
+                </div>
+                <div class="desktop-reg-input">
+                    <div class="input-text">
+                        Адрес вашего сайта
+                    </div>
+                    <input type="url" required>
+                </div>
+                <div class="desktop-reg-input">
+                    <div class="input-text">
+                        Ваш телефон (на него будут поступать 
+    звоноки с сайта)
+                    </div>
+                    <input type="tel" pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" required>
+                </div>
+                <div class="desktop-reg-input">
+                    <div class="input-text">
+                        Придумайте пароль
+                    </div>
+                    <input type="password" pattern="(?=^.{8,}$)(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*" required minlength="8">
+                </div>
+                <button class="desktop-reg-btn">
+                    Зарегистрироваться
+                </button>
+                
+                <a href="#" class="desktop-nav-reg-log">Войти</a>
+            </form>
+        </div>        
+    </nav>
     <!-- Header -->
     <header class="header">
         <div class="container">
             <nav class="nav">
-                <div class="logo">
+                <a href="#" class="logo">
                     <img src="./img/logo.svg" alt="Logotype">
-                </div>
+                </a>
                 <div class="login">
-                    <a href="#!" class="login-link">Вход</a>
-                    <a href="#!" class="login-link login-btn">Регистрация</a>
+                    <a href="#!" class="login-link login-btn">Вход</a>
+                    <a href="#!" class="login-link registration-btn" id="registration-btn">Регистрация</a>
                 </div>    
                 <a href="#!" class="nav-open">
                     <img src="./img/mobile/menu-open.png" alt="Open Menu" id="open_popup">
