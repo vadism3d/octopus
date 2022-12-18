@@ -439,7 +439,7 @@ font-size: 24px;
 
     /* Mobile Log */
 
-    .log-reg-btn{
+    .log-reg-btn , .mobile-nav-reg-log{
         display: block;
         color: #fff;
         font-weight: 700;

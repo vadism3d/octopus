@@ -22,6 +22,12 @@ $('#close_popup').click(function(){
 $('.mobile-nav-log').click(function(){
 	$('.mobile-log').addClass('open');
     $('.mobile-nav').removeClass('open-open');
+    $('.mobile-reg').removeClass('open');
+})
+$('.mobile-nav-reg-log').click(function(){
+	$('.mobile-log').addClass('open');
+    $('.mobile-nav').removeClass('open-open');
+    $('.mobile-reg').removeClass('open');
 })
 $('#close-mobile-log').click(function(){
 	$('.mobile-log').removeClass('open');
@@ -31,7 +37,6 @@ $('#close-mobile-log').click(function(){
 $('#open_popup').click(function(){
 	$('.mobile-nav').addClass('open-open');
 })
-
 $('#mobile-nav-close').click(function(){
 	$('.mobile-nav').removeClass('open-open');
 })
