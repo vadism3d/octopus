@@ -9,12 +9,31 @@ $('.desktop-reg-close').click(function(){
 	$('.desktop-reg').removeClass('desktop-reg-open');
 })
 
+$('.login-btn').click(function(){
+	$('.desktop-log').addClass('desktop-log-open');
+})
+$('.desktop-log-close').click(function(){
+	$('.desktop-log').removeClass('desktop-log-open');
+})
+
+
+$('.desktop-nav-log-reg').click(function(){
+	$('.desktop-reg').addClass('desktop-reg-open');
+	$('.desktop-log').removeClass('desktop-log-open');
+})
+$('.desktop-reg-close').click(function(){
+	$('.desktop-reg').removeClass('desktop-reg-open');
+})
 
 
 
-
-
-
+$('.desktop-nav-reg-log').click(function(){
+	$('.desktop-log').addClass('desktop-log-open');
+	$('.desktop-reg').removeClass('desktop-reg-open');
+})
+$('.desktop-reg-close').click(function(){
+	$('.desktop-log').removeClass('desktop-log-open');
+})
 
 
 
