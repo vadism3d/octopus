@@ -349,7 +349,7 @@ input:valid{
 
 @media (max-width:768px) {
     .container{
-        width: 700px;
+        width: 95%;
     }
     .bubles1{
         left: 30px;
@@ -383,7 +383,55 @@ width: 50%;
     }
 }
 
-
+@media (max-width:500px){
+    .container{
+        width: 95%;
+    }
+    .bubles1 , .bubles2{
+        display: none;
+    }
+    .diver1{
+        display: none;
+    }
+    .diver2{
+        bottom: -35px;
+        left: 20px;
+    }
+    .steps{
+        padding-top: 100px;
+    }
+    .card{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .footer-card-left{
+        padding: 55px 50px;
+        width: 95%;
+    }
+    .footer-card-right{
+        width: 95%;
+    }
+    .angler{
+        bottom: 40px;
+left: 210px;
+width: 50%;
+    }
+    .submarine{
+        width: 50%;
+    }
+    .footer{
+        padding-top: 200px;
+    }
+    .desktop-container{
+        width: 90%;
+    }
+    .desktop-log input , .desktop-reg input{
+        width: 100%;
+    }
+    .desktop-reg-btn{
+        max-width: 100%;
+    }
+}
 @media (max-width:390px) {
     .container{
         width: 100%;
