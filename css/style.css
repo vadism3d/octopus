@@ -347,6 +347,43 @@ input:valid{
 
 /* Media */
 
+@media (max-width:768px) {
+    .container{
+        width: 700px;
+    }
+    .bubles1{
+        left: 30px;
+    }
+    .diver1{
+        top: 0px;
+right: 120px;
+width: 50%;
+    }
+    .diver2{
+        bottom: -85px;
+    }
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .cards-left, .cards-right{
+        row-gap: 30px;
+    }
+    .cards-right{
+        margin-top: 30px;
+    }
+    .footer-cards{
+        flex-direction: column;
+        row-gap: 30px;
+        align-items: center;
+    }
+    .angler{
+        bottom: 30px;
+        left: 350px;
+    }
+}
+
+
 @media (max-width:390px) {
     .container{
         width: 100%;
